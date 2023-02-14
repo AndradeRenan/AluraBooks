@@ -1,0 +1,7 @@
+@import url(../styles/cabecalho.css);
+@import url(../styles/rodape.css);
+
+:root {
+    --background: #EBECEE;
+    --preto: #000000;
+}
