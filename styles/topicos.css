@@ -1,0 +1,26 @@
+.topicos-recentes{
+    color: var(--cor-branco);
+    background: var(--cor-azul-degrade);
+}
+
+.topicos-recentes__titulo{
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.lista__topicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.topicos__itens{
+    background: var(--cor-laranja);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 1em 1.5em;
+    margin: 0.5em 0.5em;
+}
