@@ -37,6 +37,7 @@
 
 .card__imagem {
     grid-area: card-img;
+    justify-self: center;
 }
 
 .card__icones{
@@ -53,4 +54,11 @@
     background: var(--cor-laranja);
     font-weight: 700;
     padding: 1em 2.1em;
+}
+
+@media  screen and (min-width:1024px) {
+    .card{
+        width: 50%;
+        margin: 3em auto;
+    }
 }
