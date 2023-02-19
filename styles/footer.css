@@ -3,9 +3,40 @@ hr {
 }
 
 .rodape{
-    background-color: var(--cor-branco);
+    background-color: var(--cor-de-fundo-rodape);
+    padding: 1em;
 }
 
-.rodape__titulo {
-    padding: 1em;
+
+@media screen and (min-width:1024px) {
+    .rodape{
+        display: flex;
+        justify-content: space-between;
+        padding: 3.5em 2em;
+        font-size: 14px;
+    }
+
+    .rodape__titulo{
+        font-size: 24px;
+    }
+
+    
+    .lista-rodape__titulo{
+        padding-bottom: 1em;
+        text-transform: uppercase;
+        color: var(--cor-cinza-claro)
+    }
+
+    .lista-rodape__item{
+        display: flex;
+        align-items: center;
+        padding: 0.5em 0;
+    }
+
+    .lista-rodape__link{
+        padding-left: 0.5em;
+        text-decoration: none;
+        color: var(--cor-cinza-escuro);
+    }
+    
 }
