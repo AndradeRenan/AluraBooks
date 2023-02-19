@@ -62,3 +62,38 @@
         padding: 2em 0 1em 0;
     }
 }
+
+
+@media  screen and (min-width:1728px) {
+    
+    .carrossel{
+        display: grid;
+        grid-template-columns: 55% 1fr;
+        grid-template-areas: 
+        "titulo titulo"
+        "carrossel-livros card-destaque"
+        ;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 7em;
+    }
+    
+    .carrossel__titulo{
+        font-size: 32px;
+        grid-area: titulo;
+    }
+
+    .swiper{
+        grid-area: carrossel-livros;
+        width: 65%;
+    }
+
+    .swiper-pagination{
+        margin-top: 3em;
+    }
+
+    .card{
+        grid-area: card-destaque;
+        align-self: end;
+    }
+}

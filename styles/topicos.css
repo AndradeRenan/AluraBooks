@@ -36,3 +36,15 @@
         font-size: 24px;
     }
 }
+
+@media  screen and (min-width:1024px) {
+    .topicos-recentes__titulo{
+        font-size: 32px;
+    }
+
+    .lista__topicos{
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 4em;
+    }
+}

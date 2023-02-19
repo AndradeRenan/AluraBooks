@@ -38,8 +38,10 @@
                     <a href="#" class="lista-menu__link">Design & UX</a>
                 </li>
             </ul>
-            <img src="img/header/Logo.svg" alt="Logo da AluraBooks" class="container__logo">
-            <h1 class="logo__titulo"><b class="logo__titulo--bold">Alura</b>books</h1>
+            <h1 class="logo">
+                <img src="img/header/Logo.svg" alt="Logo da AluraBooks" class="logo__imagem">
+                <p class="logo__titulo"><b class="logo__titulo--bold">Alura</b>books</p>
+            </h1>
         </div>
         <ul class="menu-opcoes">
             <input type="checkbox" id="menu-opcoes__id" class="menu-opcoes__botao">
@@ -72,8 +74,14 @@
         </ul>
         <div class="container">
             <a href="#" class="cabecalho__link"><img src="img/header/Favoritos.svg" alt="Meus favoritos" class="container__image container__image--transparente"></a>
-            <a href="#" class="cabecalho__link"><img src="img/header/Compras.svg" alt="Carrinho de compras" class="container__image"></a>
-            <a href="#" class="cabecalho__link"><img src="img/header/Usuario.svg" alt="Meu perfil" class="container__image"></a>
+            <a href="#" class="cabecalho__link">
+                <img src="img/header/Compras.svg" alt="Carrinho de compras" class="container__image">
+                <p class="container__texto">Minha Sacola</p>
+            </a>
+            <a href="#" class="cabecalho__link">
+                <img src="img/header/Usuario.svg" alt="Meu perfil" class="container__image">
+                <p class="container__texto">Meu Perfil</p>
+            </a>
         </div>
     </header>
     <main>
@@ -196,7 +204,7 @@
         <section class="contato">
             <div class="contato__descricao">
                 <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-                <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+                <p class="contato__texto">Atualizações de e-books, novos livros,<br>promoções e outros.</p>
             </div>
             <input type="email" name="meu__email" id="meu__email" class="contato__email" placeholder="Cadastre seu e-mail">
         </section>
