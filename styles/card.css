@@ -58,7 +58,7 @@
 
 @media  screen and (min-width:1024px) {
     .card{
-        width: 50%;
+        width: 40%;
         margin: 3em auto;
     }
 }

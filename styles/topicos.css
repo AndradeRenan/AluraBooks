@@ -1,6 +1,6 @@
 .topicos-recentes{
-    color: var(--cor-branco);
     background: var(--cor-azul-degrade);
+    color: var(--cor-branco);
 }
 
 .topicos-recentes__titulo{
@@ -24,6 +24,11 @@
     font-weight: 700;
     padding: 1em 1.5em;
     margin: 0.5em 0.5em;
+}
+
+.topicos__link{
+    text-decoration: none;
+    color: var(--cor-branco);
 }
 
 @media  screen and (min-width:1024px) {
