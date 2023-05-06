@@ -21,6 +21,7 @@
 }
 
 body {
+    font-display: swap;
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-letra);
     font-size: 16px;
